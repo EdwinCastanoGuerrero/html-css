@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium, porro distinctio dolores voluptatibus illum sed eius fuga in, optio omnis vero? Tempora itaque reprehenderit consequatur. Numquam unde suscipit recusandae!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    <!--MP# wav OGG  para midias disponiveis-->
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/OGG">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <p>Infelismente seu audio não consegue reproduzir o audio <a href="midia/guanacast-33.mp3">clique aqui</a> para baixar o audio </p>
+    </audio>
+</body>
+</html>

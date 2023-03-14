@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'lis';
+            src: url('riesling.ttf') format('opentype');
+            /*
+                Tipos de format ()
+                - opentype (otf)
+                - truetype (ttf)
+                -embedded-opentype
+                -true-aat (apple advanced type)
+                -svg
+            */
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: lis, Times, serif;
+            font-size: 3em;
+            letter-spacing: 5px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>lis Moda</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum, fugit magni accusamus ex distinctio neque at facere dolore incidunt tempora obcaecati magnam, delectus nihil veniam totam maxime cumque est.</p>
+    
+</body>
+</html>
